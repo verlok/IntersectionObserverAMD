@@ -1,0 +1,28 @@
+{
+	"name": "intersection-observer-amd",
+	"version": "1.0.0",
+	"description": "A polyfill for IntersectionObserver, served ad AMD",
+	"main": "intersection-observer-amd",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:verlok/IntersectionObserverAMD.git"
+	},
+	"keywords": [
+		"Intersection",
+		"Observer",
+		"Polyfill",
+		"AMD"
+	],
+	"author": {
+		"name": "Andrea Verlicchi",
+		"email": "andrea.verlicchi@gmail.com",
+		"url": "http://andreaverlicchi.eu"
+	},
+	"license": "W3C-20150513",
+	"bugs": {
+		"url": "https://github.com/w3c/IntersectionObserverAMD/issues"
+	},
+	"devDependencies": {
+		"rollup": "^1.2.3"
+	}
+}
