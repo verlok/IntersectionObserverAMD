@@ -18,23 +18,26 @@ In your script, create a dependencies array.
 For example, if you need `IntersectionObserver` polyfill and vanilla-lazyload, do like that:
 
 ```js
-var dependencies = [];
-if (!("IntersectionObserver" in window)) {
-    dependencies.push("./intersection-observer-amd.js");
-}
-dependencies.push("https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.2/dist/lazyload.amd.min.js");
+var dependencies = [
+    "IntersectionObserver" in window
+        ? null
+        : "./vendor/intersection-observer-amd.js",
+    "../dist/lazyload.amd.js"
+];
 ```
 
 Finally, use require to execute your script, having the dependecies loaded in the right order and ready to use.
 
 ```js
-require(dependencies, function(io, LazyLoad) {
+require(dependencies, function(_, LazyLoad) {
     window.ll = new LazyLoad({
         elements_selector: ".lazy",
         // More options?
     });
 });
 ```
+
+[DEMO](https://verlok.github.io/lazyload/demos/amd_polyfill.html) - [SOURCE](https://github.com/verlok/lazyload/blob/master/demos/amd_polyfill.html)
 
 ---
 
