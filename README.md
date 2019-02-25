@@ -1,6 +1,6 @@
 # IntersectionObserverAMD
 
-The [W3C IntersectionObserver Polyfill](https://github.com/w3c/IntersectionObserver), served in AMD.
+The original, official [W3C IntersectionObserver Polyfill](https://github.com/w3c/IntersectionObserver), served in AMD.
 
 ## Why AMD?
 
