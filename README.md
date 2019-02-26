@@ -29,6 +29,7 @@ var dependencies = [
 Finally, use require to execute your script, having the dependecies loaded in the right order and ready to use.
 
 ```js
+// _ is always null, since the polyfill is attached to the window object
 require(dependencies, function(_, LazyLoad) {
     window.ll = new LazyLoad({
         elements_selector: ".lazy",
