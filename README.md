@@ -21,7 +21,7 @@ For example, if you need `IntersectionObserver` polyfill and vanilla-lazyload, d
 var dependencies = [
     "IntersectionObserver" in window
         ? null
-        : "https://cdn.jsdelivr.net/npm/intersection-observer-amd@2.0.0/intersection-observer.amd.min.js",
+        : "https://cdn.jsdelivr.net/npm/intersection-observer-amd@2.0.1/intersection-observer.amd.min.js",
     "https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.5/dist/lazyload.amd.min.js"
 ];
 ```
