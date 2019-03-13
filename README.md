@@ -45,5 +45,5 @@ require(dependencies, function(_, LazyLoad) {
 To update this in case the guys at W3C improve their polyfill:
 
 ```
-rollup --format=amd --output=intersection-observer-amd.js -- intersection-observer.js
+rollup --format=amd --output=intersection-observer.amd.js -- intersection-observer.js
 ```
