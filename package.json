@@ -1,6 +1,6 @@
 {
 	"name": "intersection-observer-amd",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "A polyfill for IntersectionObserver, served as AMD",
 	"main": "intersection-observer-amd.js",
 	"repository": {
