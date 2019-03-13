@@ -1,8 +1,8 @@
 {
 	"name": "intersection-observer-amd",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "A polyfill for IntersectionObserver, served as AMD",
-	"main": "intersection-observer-amd.js",
+	"main": "intersection-observer.amd.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/verlok/IntersectionObserverAMD.git"
