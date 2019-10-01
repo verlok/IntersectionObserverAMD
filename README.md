@@ -40,10 +40,20 @@ require(dependencies, function(_, LazyLoad) {
 
 [DEMO](https://verlok.github.io/lazyload/demos/amd_polyfill.html) - [SOURCE](https://github.com/verlok/lazyload/blob/master/demos/amd_polyfill.html)
 
----
+## How to maintain this package
 
 To update this in case the guys at W3C improve their polyfill:
 
 ```
 rollup --format=amd --output=intersection-observer.amd.js -- intersection-observer.js
 ```
+
+## Changelog
+
+#### 2.1.0
+
+Updated IntersectionObserver polyfill to version 0.7.0.
+
+#### 2.0.0
+
+First working version.
